@@ -1,0 +1,5 @@
+{
+  "deployments": {
+    "startCommand": "python main.py"
+  }
+}

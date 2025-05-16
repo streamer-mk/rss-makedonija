@@ -11,10 +11,14 @@ def publish_to_wordpress(article):
 
     auth = (wp_user, wp_app_password)
     headers = {"Content-Type": "application/json"}
-    data = {
-        "title": article["title"],
-        "content": f"<a href='{article['link']}'>Read full article</a>",
-        "status": "publish"
+   data = {
+    "title": article["title"],
+    "content": f"<a href='{article['link']}'>Прочитај ја целата статија</a>",
+    "status": "publish",
+    "categories": [https://streamer-tv.great-site.net/category/македонија]
+       
+}
+
     }
 
     response = requests.post(f"{wp_url}/wp-json/wp/v2/posts", json=data, auth=auth, headers=headers)

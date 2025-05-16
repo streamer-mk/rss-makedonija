@@ -15,7 +15,7 @@ def publish_to_wordpress(article):
     "title": article["title"],
     "content": f"<a href='{article['link']}'>Прочитај ја целата статија</a>",
     "status": "publish",
-    "categories": [https://streamer-tv.great-site.net/wp-admin/term.php?taxonomy=category&tag_ID=271&post_type=post&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dcategory%26post_type%3Dpost%26s%3D%25D0%259C%25D0%2590%25D0%259A%25D0%2595]
+    "categories": [https://streamer-tv.great-site.net/wp-admin/term.php?taxonomy=category&tag_ID=271]
        
 }
 
